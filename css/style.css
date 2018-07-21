@@ -1,13 +1,24 @@
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #00234
+  color: #00000;
+  font-size: 100%; /* 16px */
+  line-height: 1.5;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(131, 186, 224, 0.5);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color:black;
 }
 
 .logo {
@@ -30,6 +41,31 @@ nav {
 
 .right {
   float: right;
+}
+
+figcaption{
+  font-size: .7em;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+p {
+line-height: 120%
+padding-bottom: 20px;
+}
+
+.author{
+  font-style: italic;
 }
 
 ul {
